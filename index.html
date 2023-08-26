@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="App.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+</head>
+
+<body class="light">
+    <div class="main-page">
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <label class="logo-label" for="logo-label">H</label><label class="logo-label1"
+                        for="logo-label1">.</label><label class="logo-label" for="logo-label">Folio</label>
+                </div>
+
+                <div class="middle-bar">
+                    <ul>
+                        <li class="li-l"><a href="#home">Home</a></li> <!-- <a href="#home">Home</a> -->
+                        <li><a href="#about">About</a></li>
+                        
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li class="li-r"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="right-navbar">
+                    <select class="select" name="languages" id="lang-list">
+                        <option value="En" selected>En</option>
+                        <option value="Fr">Fr</option>
+                        <option value="Ar">Ar</option>
+                    </select>
+                    <label class="toggle" for="myToggle">
+                        <input class="toggle__input" name="" type="checkbox" id="myToggle">
+                        <div class="toggle__fill"></div>
+                    </label>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-container">
+            <div class="main-section">
+                <section class="home" id="home">
+                    <div class="home-content">
+                        <h3 class="h3">Hello, It's Me</h3>
+                        <h1>Arsala Yassir</h1>
+                        <h3 class="h31">And I'm a 
+                            <div class="gradientText">
+                                <div class="job" data-job1="Web_Developper" data-job2="Biomedical_Engineer" data-job3="Frontend_Developer"></div>
+                            </div>
+                        </h3> <!--<span class="text"></span>-->
+                        <p>I'm a biomedical Engineer and web developer.</p>
+                        <div class="home-sm">
+                            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-box">More about me</a>
+                </section>
+                <div class="video-bg">
+                    <img style="width: 650px;height: 500px;background: transparent;z-index: -100;"
+                        src="videos/original-ac360df9513feded06e4e-unscreen.gif" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <section class="about" id="about">
+            <div class="about-container">
+
+                <div class="about-subcontainer">
+                    <div class="about-image">
+                        <img src="images/images-removebg-preview.png" alt="">
+                    </div>
+
+                    <div class="about-content">
+                        <div class="about-decoration">
+                            <div class="dec-box1">
+                                
+                            </div>
+                        </div>
+                        <div class="about-content_child">
+                            <h1 class="section-title">About me</h1>
+                            <h3>Full Stack Developer!</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint eius earum consequatur.
+                                Delectus, repellat eos quo nam, quos magni sequi quae expedita similique neque eveniet
+                                ducimus ex quibusdam atque nobis non dolore sit soluta officiis.</p>
+                            <a class="btn-box_about">Read more</a>
+                        </div>
+
+                        <div class="about-decoration">
+                            <div class="dec-box2"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section-services" id="services">
+            <div><h1 class="section-title1">My Services</h1></div>
+            <div class="grid-services">
+                <div class="serv service1">
+                    <div class="subdiv-serv">
+                        <img src="images/icons/code-alt-regular-60.png" alt="">
+                        <!-- <i class='bx bx-code-alt'></i> -->
+                        <h3>Web development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab nemo praesentium voluptatem, dicta reprehenderit!</p>
+                        <a href="" class="btn-box_services">Read more</a>
+                    </div>
+                    
+                </div>
+                <div class="serv service2">
+                    <div class="subdiv-serv">
+                        <img src="images/icons/paint-solid-60.png" alt="">
+                        <!-- <i class='bx bxs-paint'></i> -->
+                        <h3>Graphic Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab nemo praesentium voluptatem, dicta reprehenderit!</p>
+                        <a href="" class="btn-box_services">Read more</a>
+                    </div>
+                        
+                </div>
+                <div class="serv service3">
+                    <div class="subdiv-serv">
+                        <img src="images/icons/signal-4-regular-60.png" alt="">
+                        <!-- <i class='bx bx-signal-4'></i> -->
+                        <h3>Digital marketing</h3>
+                        <p>We offer a wide range of different online marketing services. Whether your goal is visibility, traffic or conversion, we have online marketing services of interest.</p>
+                        <a href="" class="btn-box_services">Read more</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section" id="skills">
+            <h1 class="section-title4">Skills</h1>
+            <div class="skills-grid">
+                
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/c-.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/c-sharp.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/css.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/flutter.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/html-5.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/js.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/letter-c.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/python.png" alt="">
+                </div>
+                <div class="skill-img-grid">
+                    <img class="skills-img" src="images/icons/nodejs.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section" id="portfolio">
+            <h3 class="section-title2">Latest Projects</h3>
+            <div class="portfolio-grid">
+                <div class="project project1">
+                    <img class="proj-img" src="images/Screenshot 2023-08-23 203932.png" alt="">
+                    <div class="project-layer">
+                        <h3>Web design</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea animi ratione voluptates beatae sequi modi accusamus itaque, quaerat quae? </p>
+                        <a href="#"><img class="img" src="images/icons/link-external-regular-24.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project project1">
+                    <img class="proj-img" src="images/Screenshot 2023-08-23 211329.png" alt="">
+                    <div class="project-layer">
+                        <h3>Web design</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea animi ratione voluptates beatae sequi modi accusamus itaque, quaerat quae? </p>
+                        <a href="#"><img class="img" src="images/icons/link-external-regular-24.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project project1">
+                    <img class="proj-img" src="images/youtube_6.png" alt="">
+                    <div class="project-layer">
+                        <h3>Web design</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea animi ratione voluptates beatae sequi modi accusamus itaque, quaerat quae? </p>
+                        <a href="#"><img class="img" src="images/icons/link-external-regular-24.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project project1">
+                    <img class="proj-img" src="images/day challenge 5.png" alt="">
+                    <div class="project-layer">
+                        <h3>Web design</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea animi ratione voluptates beatae sequi modi accusamus itaque, quaerat quae? </p>
+                        <a href="#"><img class="img" src="images/icons/link-external-regular-24.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project project1">
+                    <img class="proj-img" src="images/day challenge 4_facebook.png" alt="">
+                    <div class="project-layer">
+                        <h3>Web design</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea animi ratione voluptates beatae sequi modi accusamus itaque, quaerat quae? </p>
+                        <a href="#"><img class="img" src="images/icons/link-external-regular-24.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="project0 project0">
+                    <img class="proj-imgg" src="images/" alt="">
+                    <div class="project-layerr">
+                        <h3>Web design</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ea animi ratione voluptates beatae sequi modi accusamus itaque, quaerat quae? </p>
+                        <a href="#"><img class="img" src="images/icons/link-external-regular-24.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h1>Have Question?</M></h1>
+            <h3 class="section-title3">Contact Me!</h3>
+            <p>If you didn’t find what you are looking for, reach out to us and our <br />
+                awesome team will get back to you as soon as possible. </p>
+            <form action="https://forumsubmit.co/yassirarsala@gmail.com" method="POST">
+                <div class="contact-grid">
+                    <div class="cl class-fname">
+                        <!-- <label class="label-class" for="first name">First name:</label> -->
+                        <input class="cl-c1" type="text" placeholder="First name">
+                    </div>
+                    <div class="cl class-lname">
+                        <!-- <label class="label-class" for="first name">Last name:</label> -->
+                        <input class="cl-c1" type="text" placeholder="Last name">
+                    </div>
+                    <div class="cl class-num">
+                        <!-- <label class="label-class" for="first name">Phone number:</label> -->
+                        <input class="cl-c1" type="text" placeholder="Phone number">
+                    </div>
+                    <div class="cl class-email">
+                        <!-- <label class="label-class" for="first name">Email :</label> -->
+                        <input class="cl-c1" type="text" placeholder="Email">
+                    </div>
+                    <div class="cl class-desc">
+                        <!-- <label class="label-class" for="first name">Description :</label> -->
+                        <input class="cl-c2" type="text" placeholder="Description">
+                    </div>
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+                
+            </form>
+        </section>
+        <footer class="footer">
+            <nav>
+                <label for="footer">Copyright <span>&#169</span> by Arsala | All Rights Reserved. </label>
+                <a class="top" href="#"><img src="images/icons/to-top-solid-24(1).png" alt=""></a>
+            </nav>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="App.js"></script>
+</body>
+
+</html>
